@@ -1,0 +1,10 @@
+.prod_img{
+    border: 5px double red;
+    border-radius: 10px;
+}
+.prod_title{
+    font-family: 'Metal Mania', cursive;
+}
+.Tire-pressure{
+    margin-top: 30px;
+}
