@@ -1,0 +1,23 @@
+
+.card-text{
+    background-color: black;
+    padding: 20px;
+}
+.card {
+    background-color: black;
+}
+
+.card-text h3{
+    text-align: center;
+}
+.card-text h3 a{
+    color: rgb(205, 3, 3);
+    text-decoration: none;
+    font-family: 'Metal Mania', cursive;
+    
+}
+.card-text h3 a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
