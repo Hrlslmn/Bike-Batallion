@@ -1,9 +1,4 @@
-.navbar-nav a{
-        color: rgb(229, 10, 10);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 19px;
-        font: 400;
-}
+
 .card-text{
     background-color: black;
     padding: 20px;
@@ -14,6 +9,13 @@
 
 .card-text h3{
     text-align: center;
+    font-size: 35px;
+}
+.card-text p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+    text-shadow: 2px 2px 4px rgb(204, 101, 101);
 }
 .card-text h3 a{
     color: rgb(205, 3, 3);
