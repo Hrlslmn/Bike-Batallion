@@ -32,8 +32,8 @@ h2{
     z-index: 2;
 }
 .nav-link{
-    color:rgb(229, 10, 10);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(236, 162, 162);
+    font-family: 'Metal Mania';
     font-size: 19px;
     font: 400;
 }
@@ -58,10 +58,14 @@ h2{
     overflow-y: scroll;
 }
 .content-desc::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+    width: 2px;
+    height: 1px;
     background-color: rgb(218, 21, 21);
     /* for Chrome, Safari, and Opera */
+}
+.main-items{
+    border-top: 2px solid red; 
+    border-bottom: 2px solid red;
 }
 .promo{
     display: block;
@@ -79,6 +83,12 @@ footer .nav-link {
 footer .nav-link:hover {
     color: rgb(225, 98, 98);
     font-size: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .main-items{
+        border: none;
+    }
 }
 
 @media only screen and (max-width: 800px) {
