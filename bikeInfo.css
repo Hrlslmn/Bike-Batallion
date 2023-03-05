@@ -17,12 +17,13 @@
     font-size: 19px;
     text-shadow: 2px 2px 4px rgb(204, 101, 101);
 }
-.card-text h3 a{
-    color: rgb(205, 3, 3);
-    text-decoration: none;
-    font-family: 'Metal Mania', cursive;
-    
+
+.card-title{
+    font-family: 'Metal Mania';
+    margin: 0;
+    font-size: 40px;
 }
+
 .card-text h3 a:hover{
     color: antiquewhite;
     text-decoration: none;
